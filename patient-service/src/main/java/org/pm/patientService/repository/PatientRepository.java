@@ -1,4 +1,4 @@
-package org.pm.patientservice.repository;
+package org.pm.patientService.repository;
 
 import org.pm.patientService.model.Patient;
 import org.springframework.data.jpa.repository.JpaRepository;
