@@ -1,9 +1,10 @@
-package org.pm.patientService.controller;
+package org.pm.patientservice.controller;
 
 import jakarta.validation.Valid;
-import org.pm.patientService.dto.PatientRequestDTO;
-import org.pm.patientService.dto.PatientResponseDTO;
-import org.pm.patientService.service.PatientService;
+import org.pm.patientservice.dto.PatientRequestDTO;
+import org.pm.patientservice.dto.PatientResponseDTO;
+import org.pm.patientservice.service.PatientService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

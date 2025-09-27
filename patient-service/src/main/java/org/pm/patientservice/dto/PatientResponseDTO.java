@@ -1,9 +1,7 @@
-package org.pm.patientService.dto;
+package org.pm.patientservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
-
-import java.time.LocalDate;
 
 @Getter
 @Setter

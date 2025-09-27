@@ -1,19 +1,19 @@
-package org.pm.patientService.service;
+package org.pm.patientservice.service;
 
-import org.pm.patientService.dto.PatientRequestDTO;
-import org.pm.patientService.dto.PatientResponseDTO;
-import org.pm.patientService.mapper.PatientMapper;
-import org.pm.patientService.model.Patient;
-import org.pm.patientService.repository.PatientRepository;
+import org.pm.patientservice.dto.PatientRequestDTO;
+import org.pm.patientservice.dto.PatientResponseDTO;
+import org.pm.patientservice.mapper.PatientMapper;
+import org.pm.patientservice.model.Patient;
+import org.pm.patientservice.repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class PatientService {
 
     private final PatientRepository patientRepository;
 
-    @Autowired
     public PatientService(PatientRepository patientRepository) {
         this.patientRepository = patientRepository;
     }
